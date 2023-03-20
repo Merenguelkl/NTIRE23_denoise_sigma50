@@ -1,12 +1,10 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from pdb import set_trace as stx
+# from pdb import set_trace as stx
 import numbers
 from timm.models.layers import to_2tuple, trunc_normal_
 from einops import rearrange
-from fvcore.nn import FlopCountAnalysis, parameter_count_table
-from torch.cuda.amp import autocast, GradScaler
 
 
 ##########################################################################
